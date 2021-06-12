@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {ProductTable} from "./Ex4";
+import {TaskList} from "./ex5";
 
 function App() {
     return (
             <div className="container">
-                <ProductTable />
+                <TaskList />
             </div>
     );
 }
