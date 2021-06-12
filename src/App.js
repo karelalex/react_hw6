@@ -1,18 +1,13 @@
-import React from "react";
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {RecursiveButton, ShowHide} from './Ex3'
+import {ProductTable} from "./Ex4";
 
 function App() {
     return (
-        <>
             <div className="container">
-                <ShowHide/>
+                <ProductTable />
             </div>
-            <div className="container">
-                <RecursiveButton />
-            </div>
-        </>
     );
 }
 
